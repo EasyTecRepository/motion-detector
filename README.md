@@ -7,6 +7,7 @@ I have also uploaded a video about this project to YouTube. [Check it out](https
 - RaspberryPi (I use a RaspPi 3b+, but I think it doesn't matter)
 - Breadboard or other solutions (maybe you soldering it yourself)
   - Jumper cable (if needed)
+- Ultrasonic sensor HC-SR04
 - Buzzer
 - resistors (1x 330Ω; 1x 10kΩ)
 
