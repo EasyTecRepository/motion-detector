@@ -35,7 +35,7 @@ sudo apt-get update && sudo apt-get install python3 python3-pip
 ```
 After that, we need to install the library discord_webhook.
 ```
-pip install discord_webhook
+sudo pip3 install discord_webhook
 ```
 
 Now, we're ready to create this script on the Raspberry Pi.
@@ -76,15 +76,15 @@ case "$1" in
     start)
         echo "start motion detection..."
         # start program
-        python3 /home/your_user/motion_detection.py
+        python3 /home/your_user/motion_detection.py > /home/your_user/motion_detection.log 2>&1 &
         ;;
     stop)
-        echo "kill all Python3-commands"
+        echo "stop motion detection..."
         # stop all Python3-commands
-        killall python3
+        pkill -f "/home/your_user/motion_detection.py"
         ;;
     *)
-        echo "Use: /etc/init.d/motion_detector {start|stop}"
+        echo "Usage: /etc/init.d/motion_detector {start|stop}"
         exit 1
         ;;
 esac
