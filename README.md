@@ -55,7 +55,10 @@ Finally, you can run the following command:
 python3 motion_detection.py
 ```
 
-# automation
+# automation 
+> [!WARNING]
+> These instructions show how it should work. I could not get it to work. I have not yet tested other services such as cronjob. Maybe this works...
+
 If you want the script to start when your Raspberry Pi starts:
 I use autostart ([Based on this Tutorial](https://tutorials-raspberrypi.de/raspberry-pi-autostart-programm-skript/)). Here is how it works:
 First, we need to create another script.
