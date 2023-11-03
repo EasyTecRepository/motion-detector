@@ -113,7 +113,7 @@ Here too, use the same name as the service!
 
 If you don't want autostart anymore, run this:
 ```
-sudo update-rc.d -f  motion_detector remove
+sudo update-rc.d -f motion_detector remove
 ```
 And when you want to start/stop your script manually, you can do this:
 ```
