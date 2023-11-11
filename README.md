@@ -1,7 +1,7 @@
 # motion-detector 
 Here you can find a simple script, that **detects motions**, **activates a buzzer**, and sends you a **discord notification**
 
-I have also uploaded a video about this project to YouTube. [Check it out](https://youtube.com/EasyTec100) (german video)
+I have also uploaded a video about this project to YouTube. [Check it out](https://youtu.be/H0sQH5YJK64?si=ACYnVe2sIFxESubc) (german video)
 
 # What is needed?
 - RaspberryPi (I use a RaspPi 3b+, but I think it doesn't matter)
